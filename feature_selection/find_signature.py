@@ -2,8 +2,8 @@ import joblib
 import numpy
 numpy.random.seed(42)
 
-words_file = "../text_learning/your_word_data.pkl"
-authors_file = "../text_learning/your_email_authors.pkl"
+words_file = "C:/Users/reema/OneDrive - Indian Institute of Technology Guwahati/Documents/Udacity/ud120-projects-master/ud120-projects-master/text_learning/your_word_data.pkl"
+authors_file = "C:/Users/reema/OneDrive - Indian Institute of Technology Guwahati/Documents/Udacity/ud120-projects-master/ud120-projects-master/text_learning/your_email_authors.pkl"
 
 word_data = joblib.load(open(words_file, "rb"))
 authors = joblib.load(open(authors_file, "rb"))
