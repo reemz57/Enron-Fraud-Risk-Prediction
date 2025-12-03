@@ -3,7 +3,7 @@
 import os
 import joblib
 import sys
-sys.path.append(os.path.abspath("../tools/"))
+sys.path.append(os.path.abspath("C:/Users/reema/OneDrive - Indian Institute of Technology Guwahati/Documents/Udacity/ud120-projects-master/ud120-projects-master/tools/"))
 from feature_format import featureFormat, targetFeatureSplit
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
