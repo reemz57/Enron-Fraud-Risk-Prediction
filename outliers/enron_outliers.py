@@ -16,12 +16,12 @@ data = featureFormat(data_dict, features)
 salary = data[:, 0]  # First column is salary
 bonus = data[:, 1]   # Second column is bonus
 
-# Create the scatter plot
+# the scatter plot
 plt.figure(figsize=(10, 6))
-plt.scatter(salary, bonus, alpha=0.5)  # Use alpha for transparency
+plt.scatter(salary, bonus, alpha=0.5) 
 plt.title("Scatter Plot of Salary vs Bonus")
 plt.xlabel("Salary")
 plt.ylabel("Bonus")
 plt.grid(True)
-plt.show()  # Display the plot
+plt.show() 
 
