@@ -1,6 +1,6 @@
 import sys
 from time import time
-sys.path.append("../tools/")
+sys.path.append("C:/Users/reema/OneDrive - Indian Institute of Technology Guwahati/Documents/Udacity/ud120-projects-master/ud120-projects-master/tools/")
 from email_preprocess import preprocess
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score
